@@ -2,8 +2,8 @@
 
 Where's my next ride? Shared mobility vehicle locations (Coord.com API)
 
-- Washington, DC
-- Atlanta, GA
-- Chattanooga, TN
+- [Washington, DC](dc/)
+- [Atlanta, GA](atlanta/)
+- [Chattanooga, TN](chattanooga/)
 
 
