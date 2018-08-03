@@ -11,7 +11,7 @@ Where's my next ride? Shared mobility vehicle locations (Coord.co API)
 We've forked three starter kits for creating Coord.co API apps.
 Choose one and fork it to your city's GitHub account.
 
-- [Vue Quasar](https://github.com/DataPortal/coord-vue-quasar) (See also [Detached Version](https://github.com/DataPortal/coord-quasar))
+- [Vue Quasar](https://github.com/DataPortal/coord-vue-quasar) (See also [Detached Version](https://github.com/DataPortal/coord-quasar)) - [Vue List](https://smartparks.github.io/)
 - [React with mobX](https://github.com/DataPortal/coord-react) (See also [Detached Version](https://github.com/DataPortal/coord-react-detached))
 - [Angular 6 NGX](https://github.com/DataPortal/coord-angular) - MANT Stack (MongoDB Angular NestJS TypeScript)
 
