@@ -6,7 +6,7 @@ Where's my next ride? Shared mobility vehicle locations (Coord.co API)
 - [Chattanooga Map](chattanooga/) - [Shared Mobility Hackathon Aug 11, 2018](https://www.eventbrite.com/e/national-day-of-civic-hacking-tickets-48338457628)
 - [Washington, DC Map](dc/)
 
-# Mobility DataPortal
+# DataPortal
 
 We've forked three starter kits for creating Coord.co API apps.
 Choose one and fork it to your city's GitHub account.
