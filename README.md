@@ -18,6 +18,8 @@ Choose one and fork it to your city's GitHub account.
 
 [Dataportal.github.io](https://dataportal.github.io) provides links to work in progress.
 
+[RideMap Bike Predict](https://github.com/SharedMobility/RideMap) - Address auto-lookup and weather conditions
+
 <b>How to update your local branch (once you've forked an upstream master listed above):</b><br>
 In Github Desktop, choose menu Branch > Merge Into Current Branch > "upstream/master".<br>
 Then click "push origin" to move update into your fork on GitHub.<br>
