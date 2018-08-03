@@ -2,7 +2,8 @@
 
 Where's my next ride? Shared mobility vehicle locations (Coord.co API)
 
-- [Atlanta Map](atlanta/) ([AtlantaRides](https://github.com/AtlantaRides/atlantarides.github.io), [KeyTopics for new dockless ordinance](https://sharedmobility.github.io/atlanta/ordinance/2018/Dockless_KeyTopics_20180731.pdf))
+- [Atlanta Map](atlanta/) ([AtlantaRides](https://github.com/AtlantaRides/atlantarides.github.io), [KeyTopics for new dockless ordinance](https://sharedmobility.github.io/atlanta/ordinance/2018/Dockless_KeyTopics_20180731.pdf)) - 
+[JSON](https://api.coord.co/v1/bike/location?access_key=p9H_wRiQaoEoIKQBaJnA1oR77yCBY-6Z-AEku8bgJNk&latitude=33.7490&longitude=-84.3880&radius_km=10)
 - [Chattanooga Map](chattanooga/) ([Shared Mobility Hackathon Aug 11, 2018](https://www.eventbrite.com/e/national-day-of-civic-hacking-tickets-48338457628))
 - [Washington, DC Map](dc/) ([Cood.co Bike-Share API](https://coord.co/quickstart/bike-share))
 
