@@ -27,3 +27,14 @@ Add new pages to avoid merge conflicts with master.<br>
 We will move the master readme files so you can maintain a unique readme file.<br>
 
 <a href="https://github.com/SharedMobility/sharedmobility.github.io">GitHub</a>
+
+
+# Projects
+
+* Bird Scooter API: https://github.com/ubahnverleih/WoBike/blob/master/Bird.md
+
+* City select using Storybook for Vue: https://storybook.js.org/basics/guide-vue/
+
+* Georgia City CSV File: https://github.com/GeorgiaData/talent/tree/master/menu/data
+
+* Cesium Map sample: https://dataportal.github.io/atlanta/
