@@ -35,7 +35,7 @@ We will move the master readme files so you can maintain a unique readme file.<b
 * Add Google Location auto-lookup to Coord.co shared mobility map  
 See [RideMap](https://github.com/SharedMobility/RideMap) sample. Add to [Atlanta Map](atlanta/)
 
-* Update to unique icon for Relay Bikes
+* Add unique Relay Bikes icon to [Atlanta Map](https://sharedmobility.github.io/atlanta/) legend
 
 * Add Bird scooter and other vehicle APIs to map
 
