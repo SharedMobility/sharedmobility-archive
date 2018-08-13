@@ -43,4 +43,6 @@ See [RideMap](https://github.com/SharedMobility/RideMap) sample. Add to [Atlanta
 
 * Combine mobile-friendly lists with map
 
+* Add other APIs from [RideMap](https://github.com/SharedMobility/RideMap) sample
+
 <a href="https://github.com/SharedMobility/sharedmobility.github.io">GitHub</a>
