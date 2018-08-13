@@ -37,4 +37,8 @@ See [RideMap](https://github.com/SharedMobility/RideMap) sample. Add to [Atlanta
 
 * Add Bird scooter and other vehicle APIs to map
 
+* Center the map on user's current location. Add an icon for recentering. Sample: [data.georgia.org](https://data.georgia.org)
+
+* Combine mobile-friendly lists with map
+
 <a href="https://github.com/SharedMobility/sharedmobility.github.io">GitHub</a>
