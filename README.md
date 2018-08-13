@@ -26,9 +26,6 @@ Then click "push origin" to move update into your fork on GitHub.<br>
 Add new pages to avoid merge conflicts with master.<br>
 We will move the master readme files so you can maintain a unique readme file.<br>
 
-<a href="https://github.com/SharedMobility/sharedmobility.github.io">GitHub</a>
-
-
 # Projects
 
 * Test and document problems with Bird Scooter API to provide to City of Atlanta: https://github.com/ubahnverleih/WoBike/blob/master/Bird.md
@@ -39,3 +36,5 @@ See [RideMap](https://github.com/SharedMobility/RideMap) sample. Add to [Atlanta
 * Update to unique icon for Relay Bikes
 
 * Add Bird scooter and other vehicle APIs to map
+
+<a href="https://github.com/SharedMobility/sharedmobility.github.io">GitHub</a>
