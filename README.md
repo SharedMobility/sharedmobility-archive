@@ -32,17 +32,19 @@ We will move the master readme files so you can maintain a unique readme file.<b
 
 * Test and document problems with Bird Scooter API to provide to City of Atlanta: https://github.com/ubahnverleih/WoBike/blob/master/Bird.md
 
-* Add Google Location auto-lookup to Coord.co shared mobility map  
+* Add Google Location auto-lookup to Coord.co shared mobility map.  
 See [RideMap](https://github.com/SharedMobility/RideMap) sample. Add to [Atlanta Map](atlanta/)
 
-* Add unique Relay Bikes icon to [Atlanta Map](https://sharedmobility.github.io/atlanta/) legend
+* Add unique Relay Bikes icon to [Atlanta Map](https://sharedmobility.github.io/atlanta/) legend.
 
-* Add Bird scooter and other vehicle APIs to map
+* Add Bird scooter and other vehicle APIs to map.
+
+* Get routing working in Quasar VueJS [list sample](https://smartparks.github.io/).
 
 * Center the map on user's current location. Add an icon for recentering. Sample: [data.georgia.org](https://data.georgia.org)
 
-* Combine mobile-friendly lists with map
+* Combine mobile-friendly lists with map.
 
-* Add other APIs (Air quality, wind speed, etc.) from [RideMap Bike Predict](https://bikepredict.herokuapp.com/) sample. Lazy load via modular file
+* Add other APIs (Air quality, wind speed, etc.) from [RideMap Bike Predict](https://bikepredict.herokuapp.com/) sample. Lazy load via modular file.
 
 <a href="https://github.com/SharedMobility/sharedmobility.github.io">GitHub</a>
