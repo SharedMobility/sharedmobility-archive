@@ -30,7 +30,8 @@ We will move the master readme files so you can maintain a unique readme file.<b
 
 # Projects
 
-* Pull Bird scooters from their API. Document any problems to provide to City of Atlanta: https://github.com/ubahnverleih/WoBike/blob/master/Bird.md
+* Pull Bird scooters from the [Bird API](https://github.com/ubahnverleih/WoBike/blob/master/Bird.md). Display list with React or VueJS.  
+Document any problems to provide to the City of Atlanta.
 
 * Add Google Location auto-lookup to Coord.co shared mobility map.  
 See [RideMap](https://github.com/SharedMobility/RideMap) sample. Add to [Atlanta Map](atlanta/)
