@@ -35,7 +35,7 @@ Document any problems to provide to the City of Atlanta.
 
 * Get routing working in Quasar VueJS [bike list sample](https://smartparks.github.io/).
 
-* Add direct link to Angular [bike list](https://dataportal.github.io/coord-angular/dashboard/gridmap/grid-list) (under mobility nav within Desktop)
+* Add direct link to Angular [bike list](https://dataportal.github.io/coord-angular/dashboard/gridmap/grid-list) (under Get Started > Mobility > Available Vehicles)
 
 * Add Google Location auto-lookup to Coord.co shared mobility map.  
 See [RideMap](https://github.com/SharedMobility/RideMap) sample. Add to [Atlanta Map](atlanta/)
