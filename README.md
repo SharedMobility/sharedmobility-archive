@@ -31,10 +31,10 @@ We will move the master readme files so you can maintain a unique readme file.<b
 
 # Projects
 
-* Bird Scooter API: https://github.com/ubahnverleih/WoBike/blob/master/Bird.md
+* Test and document problems with Bird Scooter API to provide to City of Atlanta: https://github.com/ubahnverleih/WoBike/blob/master/Bird.md
 
-* City select using Storybook for Vue: https://storybook.js.org/basics/guide-vue/
+* Add Google Location auto-lookup to Coord.co shared mobility map
 
-* Georgia City CSV File: https://github.com/GeorgiaData/talent/tree/master/menu/data
+* Update to unique icon for Relay Bikes
 
-* Cesium Map sample: https://dataportal.github.io/atlanta/
+* Add Bird scooter and other vehicle APIs to map
