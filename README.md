@@ -43,6 +43,6 @@ See [RideMap](https://github.com/SharedMobility/RideMap) sample. Add to [Atlanta
 
 * Combine mobile-friendly lists with map
 
-* Add other APIs from [RideMap](https://github.com/SharedMobility/RideMap) sample
+* Add other APIs (Air quality, wind speed, etc.) from [RideMap Bike Predict](https://bikepredict.herokuapp.com/) sample. Lazy load via modular file
 
 <a href="https://github.com/SharedMobility/sharedmobility.github.io">GitHub</a>
