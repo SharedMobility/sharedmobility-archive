@@ -33,14 +33,14 @@ We will move the master readme files so you can maintain a unique readme file.<b
 * Pull Bird scooters from the [Bird API](https://github.com/ubahnverleih/WoBike/blob/master/Bird.md). Display list with React or VueJS.  
 Document any problems to provide to the City of Atlanta.
 
+* Get routing working in Quasar VueJS [bike list sample](https://smartparks.github.io/).
+
 * Add Google Location auto-lookup to Coord.co shared mobility map.  
 See [RideMap](https://github.com/SharedMobility/RideMap) sample. Add to [Atlanta Map](atlanta/)
 
 * Add unique Relay Bikes icon to [Atlanta Map](https://sharedmobility.github.io/atlanta/) legend.
 
 * Add Bird scooter and other vehicle APIs to map.
-
-* Get routing working in Quasar VueJS [list sample](https://smartparks.github.io/).
 
 * Center the map on user's current location. Add an icon for recentering. Sample: [data.georgia.org](https://data.georgia.org)
 
