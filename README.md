@@ -33,7 +33,8 @@ We will move the master readme files so you can maintain a unique readme file.<b
 
 * Test and document problems with Bird Scooter API to provide to City of Atlanta: https://github.com/ubahnverleih/WoBike/blob/master/Bird.md
 
-* Add Google Location auto-lookup to Coord.co shared mobility map
+* Add Google Location auto-lookup to Coord.co shared mobility map  
+See [RideMap](https://github.com/SharedMobility/RideMap) sample. Add to [Atlanta Map](atlanta/)
 
 * Update to unique icon for Relay Bikes
 
