@@ -31,8 +31,10 @@ We will move the master readme files so you can maintain a unique readme file.<b
 
 # Projects
 
+* Creating directory of Fresh Produce locations for Aglanta. React link above.
+
 * Pull Bird scooters from the [Bird API](https://github.com/ubahnverleih/WoBike/blob/master/Bird.md). Display list with React or VueJS.  
-Document any problems to provide to the City of Atlanta.
+Document any problems to provide to the City of Atlanta. Our findings: Bird API is not available! Needs to allow for a mile radius, okay to limit requests.
 
 * Get routing working in Quasar VueJS [bike list sample](https://smartparks.github.io/).
 
