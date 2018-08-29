@@ -1,6 +1,7 @@
 # Shared Mobility
 
-Our Code for Atlanta slack channel: [#mobilize](https://codeforatlanta.slack.com/messages/C9J705RRB)
+Our Code for Atlanta slack channel: [#mobilize](https://codeforatlanta.slack.com/messages/C9J705RRB). &nbsp; 
+Our workflow: [Trello](https://trello.com/b/qAGKrRAP/mobilize)
 
 Where's my next ride? Shared mobility vehicle locations (Coord.co API)
 
