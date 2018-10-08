@@ -3,13 +3,15 @@
 Our Code for Atlanta slack channel: [#mobilize](https://codeforatlanta.slack.com/messages/C9J705RRB). &nbsp; 
 Our workflow: [Trello](https://trello.com/b/qAGKrRAP/mobilize)
 
-# Tonight's Focus
+# 1. Georgia Fresh Produce Locations
 
-1. Automate pulling Fresh Produce locations for Georgia to use with Aglanta.
+Automate pulling Fresh Produce locations for Georgia to use with Aglanta.
 
 [USDA Files](https://drive.google.com/drive/folders/1ZLh0eATgikkfWz1GFlCPtES8gKo8Mctf?usp=sharing) - Manually pulled from [USDA Website](https://www.ams.usda.gov/services/local-regional/food-directories-listings). Experiment with SheetSee.js.
 
-2. Prepare request to City of Atlanta to require APIs for Shared Mobility access modeled after Los Angeles.
+# 2. Atlanta Shared Mobility APIs
+
+Prepare request to City of Atlanta to require APIs for Shared Mobility access modeled after Los Angeles.
 
 http://policies.sharedusemobilitycenter.org/#/policies/1044
 
@@ -17,7 +19,7 @@ Atlanta omitted an API requirement, but we still have time to input a request fr
 
 You might find some more leads in this [Google search](https://www.google.com/search?q=cities+that+require+APIs+from+shared+mobility+providers&oq=cities+that+require+APIs+from+shared+mobility+providers&aqs=chrome..69i57.13920j0j7&sourceid=chrome&ie=UTF-8)
 
-# Shared Mobility Map with Fresh Produce Locations
+# Shared Mobility Map
 
 Where's my next ride? Shared mobility vehicle locations (Coord.co API)
 
