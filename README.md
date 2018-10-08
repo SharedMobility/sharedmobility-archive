@@ -38,6 +38,9 @@ Choose one and fork it to your city's GitHub account.
 
 [RideMap Bike Predict](https://github.com/SharedMobility/RideMap) - Address auto-lookup and weather conditions
 
+<b>You'll need a branch called gh-pages to publish</b>
+Otherwise the Master branch will appear. In GitHub Desktop choose "Branch > New Branch" and add one called gh-pages.
+
 <b>How to update your local branch (once you've forked an upstream master listed above):</b><br>
 In Github Desktop, choose menu Branch > Merge Into Current Branch > "upstream/master".<br>
 Then click "push origin" to move update into your fork on GitHub.<br>
