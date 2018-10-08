@@ -8,10 +8,13 @@ Our [quick map](https://data.georgia.org/#fresh)
 
 Automate pulling Fresh Produce locations for Georgia to use with Aglanta.
 
-[USDA Files](https://drive.google.com/drive/folders/1ZLh0eATgikkfWz1GFlCPtES8gKo8Mctf?usp=sharing) - Manually pulled from [USDA Website](https://www.ams.usda.gov/services/local-regional/food-directories-listings). Experiment with SheetSee.js.  
+[USDA Files](https://drive.google.com/drive/folders/1ZLh0eATgikkfWz1GFlCPtES8gKo8Mctf?usp=sharing) - Manually pulled from [USDA Website](https://www.ams.usda.gov/services/local-regional/food-directories-listings).  
 
-[Working SheetSee sample](https://codeforatlanta.github.io/mobilize/map/) in our Code For Atlanta Repo.  
-[Page to point at a USDA sheet](https://codeforatlanta.github.io/mobilize/map/fresh.html) - Point at a new sheet that pulls from raw sheets. Raw sheets will be updated monthly.
+[Working SheetSee sample map](https://codeforatlanta.github.io/mobilize/map/) in our Code For Atlanta Repo.  
+
+1. Pull from four USDA data sheets into a combined sheet. Raw sheets will be updated monthly.  
+2. Point SheetSee.js at new sheet.  [Edit this map page](https://codeforatlanta.github.io/mobilize/map/fresh.html)
+3. Create a form for adding to Aglanta Google Sheet.  
 
 # 2. Atlanta Shared Mobility APIs
 
