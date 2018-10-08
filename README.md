@@ -3,7 +3,7 @@
 Our Code for Atlanta slack channel: [#mobilize](https://codeforatlanta.slack.com/messages/C9J705RRB). &nbsp; 
 Our workflow: [Trello](https://trello.com/b/qAGKrRAP/mobilize)
 
-# 1. Georgia Fresh Produce Locations
+# 1. Fresh Produce Locations
 
 Automate pulling Fresh Produce locations for Georgia to use with Aglanta.
 
@@ -15,7 +15,7 @@ Prepare request to City of Atlanta to require APIs for Shared Mobility access mo
 
 http://policies.sharedusemobilitycenter.org/#/policies/1044
 
-Atlanta omitted an API requirement, but we still have time to input a request from Code For Atlanta.
+Atlanta omitted an API requirement in the recent ordinance, but we still have time to input a request from Code For Atlanta.
 
 You might find some more leads in this [Google search](https://www.google.com/search?q=cities+that+require+APIs+from+shared+mobility+providers&oq=cities+that+require+APIs+from+shared+mobility+providers&aqs=chrome..69i57.13920j0j7&sourceid=chrome&ie=UTF-8)
 
