@@ -1,7 +1,8 @@
 # Shared Mobility
 
 Our Code for Atlanta slack channel: [#mobilize](https://codeforatlanta.slack.com/messages/C9J705RRB). &nbsp; 
-Our workflow: [Trello](https://trello.com/b/qAGKrRAP/mobilize)
+Our workflow: [Trello](https://trello.com/b/qAGKrRAP/mobilize) &nbsp; 
+Our [quick map](https://data.georgia.org/#fresh)
 
 # 1. Fresh Produce Locations
 
