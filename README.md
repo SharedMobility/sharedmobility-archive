@@ -13,9 +13,7 @@ http://policies.sharedusemobilitycenter.org/#/policies/1044
 
 Atlanta omitted an API requirement, but we still have time to input a request from Code For Atlanta.
 
-You might find some more leads in this Google search.
-
-https://www.google.com/search?q=cities+that+require+APIs+from+shared+mobility+providers&oq=cities+that+require+APIs+from+shared+mobility+providers&aqs=chrome..69i57.13920j0j7&sourceid=chrome&ie=UTF-8
+You might find some more leads in this [Google search](https://www.google.com/search?q=cities+that+require+APIs+from+shared+mobility+providers&oq=cities+that+require+APIs+from+shared+mobility+providers&aqs=chrome..69i57.13920j0j7&sourceid=chrome&ie=UTF-8)
 
 # Shared Mobility Map with Fresh Produce Locations
 
