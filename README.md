@@ -5,11 +5,11 @@ Our workflow: [Trello](https://trello.com/b/qAGKrRAP/mobilize)
 
 # Tonight's Focus
 
-* Automate pulling Fresh Produce locations for Georgia to use with Aglanta.
+1. Automate pulling Fresh Produce locations for Georgia to use with Aglanta.
 
-[USDA Files](https://drive.google.com/drive/folders/1ZLh0eATgikkfWz1GFlCPtES8gKo8Mctf?usp=sharing) - Manually pulled from [USDA Website](https://www.ams.usda.gov/services/local-regional/food-directories-listings)
+[USDA Files](https://drive.google.com/drive/folders/1ZLh0eATgikkfWz1GFlCPtES8gKo8Mctf?usp=sharing) - Manually pulled from [USDA Website](https://www.ams.usda.gov/services/local-regional/food-directories-listings). Experiment with SheetSee.js.
 
-* Prepare request to City of Atlanta for requirement of API access modeled after Los Angeles.
+2. Prepare request to City of Atlanta to require APIs for Shared Mobility access modeled after Los Angeles.
 
 http://policies.sharedusemobilitycenter.org/#/policies/1044
 
@@ -38,14 +38,15 @@ Choose one and fork it to your city's GitHub account.
 
 [RideMap Bike Predict](https://github.com/SharedMobility/RideMap) - Address auto-lookup and weather conditions
 
-<b>You'll need a branch called gh-pages to publish</b>
-Otherwise the Master branch will appear. In GitHub Desktop choose "Branch > New Branch" and add one called gh-pages.
+<b>You'll need a branch called gh-pages to publish</b>  
+Otherwise the forked Master branch will appear instead of your custom site.  
+In GitHub Desktop choose "Branch > New Branch" and add one called gh-pages.
 
-<b>How to update your local branch (once you've forked an upstream master listed above):</b><br>
-In Github Desktop, choose menu Branch > Merge Into Current Branch > "upstream/master".<br>
-Then click "push origin" to move update into your fork on GitHub.<br>
-Add new pages to avoid merge conflicts with master.<br>
-We will move the master readme files so you can maintain a unique readme file.<br>
+<b>How to update your local branch (once you've forked an upstream master listed above):</b>  
+In Github Desktop, choose menu Branch > Merge Into Current Branch > "upstream/master".  
+Then click "push origin" to move update into your fork on GitHub.  
+Add new pages to avoid merge conflicts with master.  
+We will move the master readme files so you can maintain a unique readme file.  
 
 # Upcoming Projects
 
