@@ -21,7 +21,7 @@ Automate pulling Fresh Produce locations for Georgia to use with Aglanta.
 Prepare request to City of Atlanta to require APIs for Shared Mobility similar to [Los Angeles API requirement](http://policies.sharedusemobilitycenter.org/#/policies/1044) which uses the
 General Bikeshare Feed Specification (GBFS) API.  
 
-Atlanta omitted a specific API requirement in the [September 2018 ordinance](https://github.com/AtlantaRides/atlantarides.github.io/blob/master/resources/ordinance/Ordinance-18-O-1322-as-Substituted-by-PSLA-on-09-25-2018.pdf), but we still have time to input a request from Code For Atlanta. We might find some more leads (cities) in this [Google search](https://www.google.com/search?q=cities+that+require+APIs+from+shared+mobility+providers&oq=cities+that+require+APIs+from+shared+mobility+providers&aqs=chrome..69i57.13920j0j7&sourceid=chrome&ie=UTF-8)
+Atlanta omitted a specific API requirement in the [September 2018 ordinance](https://github.com/AtlantaRides/atlantarides.github.io/blob/master/resources/ordinance/Ordinance-18-O-1322-as-Substituted-by-PSLA-on-09-25-2018.pdf), but we still have time to input a request from Code For Atlanta. We might find some more leads (cities) in this [Google search](https://www.google.com/search?q=cities+that+require+APIs+from+shared+mobility+providers&oq=cities+that+require+APIs+from+shared+mobility+providers&aqs=chrome..69i57.13920j0j7&sourceid=chrome&ie=UTF-8).
 
 # Shared Mobility Map
 
