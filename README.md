@@ -3,6 +3,22 @@
 Our Code for Atlanta slack channel: [#mobilize](https://codeforatlanta.slack.com/messages/C9J705RRB). &nbsp; 
 Our workflow: [Trello](https://trello.com/b/qAGKrRAP/mobilize)
 
+# Tonight's Focus
+
+* Automate pulling Fresh Produce locations for Georgia to use with Aglanta.
+
+* Prepare request to City of Atlanta for requirement of API access modeled after Los Angeles.
+
+http://policies.sharedusemobilitycenter.org/#/policies/1044
+
+Atlanta omitted an API requirement, but we still have time to input a request from Code For Atlanta.
+
+You might find some more leads in this Google search.
+
+https://www.google.com/search?q=cities+that+require+APIs+from+shared+mobility+providers&oq=cities+that+require+APIs+from+shared+mobility+providers&aqs=chrome..69i57.13920j0j7&sourceid=chrome&ie=UTF-8
+
+# Shared Mobility Map with Fresh Produce Locations
+
 Where's my next ride? Shared mobility vehicle locations (Coord.co API)
 
 - [Atlanta Map](atlanta/) ([AtlantaRides](https://github.com/AtlantaRides/atlantarides.github.io), [KeyTopics for new dockless ordinance](https://sharedmobility.github.io/atlanta/ordinance/2018/Dockless_KeyTopics_20180731.pdf)) - 
@@ -10,16 +26,15 @@ Where's my next ride? Shared mobility vehicle locations (Coord.co API)
 - [Chattanooga Map](chattanooga/) ([Shared Mobility Hackathon Aug 11, 2018](https://www.eventbrite.com/e/national-day-of-civic-hacking-tickets-48338457628)) - [Writeup from the event](https://connect.chattanooga.gov/ndoch_2018/)
 - [Washington, DC Map](dc/) ([Cood.co Bike-Share API](https://coord.co/quickstart/bike-share))
 
-# DataPortal
+# Starter Kits
 
 We've forked three starter kits for creating Coord.co API apps.
 Choose one and fork it to your city's GitHub account.
 
-- [Vue Quasar](https://github.com/DataPortal/coord-vue-quasar) ([Detached Version](https://github.com/DataPortal/coord-quasar)) - [Bike List](https://smartparks.github.io/)
 - [React for Fresh Produce](https://github.com/codeforatlanta/mobilize/)
+- [Vue Quasar](https://github.com/DataPortal/coord-vue-quasar) ([Detached Version](https://github.com/DataPortal/coord-quasar)) - [Bike List](https://smartparks.github.io/)
 - [Angular 6 NGX](https://github.com/DataPortal/coord-angular) - MANT Stack (MongoDB Angular NestJS TypeScript) - [Bike List](https://dataportal.github.io/coord-angular/dashboard/gridmap/grid-list)
 
-[Dataportal.github.io](https://dataportal.github.io) provides links to work in progress.
 
 [RideMap Bike Predict](https://github.com/SharedMobility/RideMap) - Address auto-lookup and weather conditions
 
@@ -29,12 +44,7 @@ Then click "push origin" to move update into your fork on GitHub.<br>
 Add new pages to avoid merge conflicts with master.<br>
 We will move the master readme files so you can maintain a unique readme file.<br>
 
-# Projects
-
-* Creating directory of Fresh Produce locations for Aglanta. React link above.
-
-* Pull Bird scooters from the [Bird API](https://github.com/ubahnverleih/WoBike/blob/master/Bird.md). Display list with React or VueJS.  
-Document any problems to provide to the City of Atlanta. Our findings: Bird API is not available! Needs to allow for a mile radius, okay to limit requests.
+# Upcoming Projects
 
 * Get routing working in Quasar VueJS [bike list sample](https://smartparks.github.io/).
 
@@ -52,5 +62,9 @@ See [RideMap](https://github.com/SharedMobility/RideMap) sample. Add to [Atlanta
 * Combine mobile-friendly lists with map.
 
 * Add other APIs (Air quality, wind speed, etc.) from [RideMap Bike Predict](https://bikepredict.herokuapp.com/) sample. Lazy load via modular file.
+
+# Previous Projects
+
+* Pull Bird scooters from the [Bird API](https://github.com/ubahnverleih/WoBike/blob/master/Bird.md). Display list with React or VueJS. Document any problems to provide to the City of Atlanta. Our findings: Bird API is not available! Needs to allow for a mile radius, okay to limit requests.
 
 <a href="https://github.com/SharedMobility/sharedmobility.github.io">GitHub</a>
