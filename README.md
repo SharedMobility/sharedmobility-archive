@@ -7,6 +7,8 @@ Our workflow: [Trello](https://trello.com/b/qAGKrRAP/mobilize)
 
 * Automate pulling Fresh Produce locations for Georgia to use with Aglanta.
 
+[USDA Files](https://drive.google.com/drive/folders/1ZLh0eATgikkfWz1GFlCPtES8gKo8Mctf?usp=sharing) - Manually pulled from [USDA Website](https://www.ams.usda.gov/services/local-regional/food-directories-listings)
+
 * Prepare request to City of Atlanta for requirement of API access modeled after Los Angeles.
 
 http://policies.sharedusemobilitycenter.org/#/policies/1044
