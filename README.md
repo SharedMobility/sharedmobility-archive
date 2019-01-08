@@ -28,7 +28,7 @@ Where's my next ride? Shared mobility vehicle locations (Coord.co API)
 [Los Angeles API requirement](http://policies.sharedusemobilitycenter.org/#/policies/1044) uses the
 General Bikeshare Feed Specification (GBFS) API.  
 
-Atlanta omitted a specific API requirement in the [September 2018 ordinance](https://github.com/AtlantaRides/atlantarides.github.io/blob/master/resources/ordinance/Ordinance-18-O-1322-as-Substituted-by-PSLA-on-09-25-2018.pdf). More leads (cities) in this [Google search](https://www.google.com/search?q=cities+that+require+APIs+from+shared+mobility+providers&oq=cities+that+require+APIs+from+shared+mobility+providers&aqs=chrome..69i57.13920j0j7&sourceid=chrome&ie=UTF-8).
+Atlanta omitted a specific API requirement in the [September 2018 ordinance](https://github.com/AtlantaRides/atlantarides.github.io/blob/master/resources/ordinance/Ordinance-18-O-1322-as-Substituted-by-PSLA-on-09-25-2018.pdf). More leads in this [Google search](https://www.google.com/search?q=cities+that+require+APIs+from+shared+mobility+providers&oq=cities+that+require+APIs+from+shared+mobility+providers&aqs=chrome..69i57.13920j0j7&sourceid=chrome&ie=UTF-8).
 
 # Starter Kits
 
