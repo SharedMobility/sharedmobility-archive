@@ -54,7 +54,7 @@ Then click "push origin" to move update into your fork on GitHub.
 Add new pages to avoid merge conflicts with master.  
 We will move the master readme files so you can maintain a unique readme file.  
 
-# Upcoming Projects
+# Possible Updates
 
 * Get routing working in Quasar VueJS [bike list sample](https://smartparks.github.io/).
 
@@ -75,6 +75,6 @@ See [RideMap](https://github.com/SharedMobility/RideMap) sample. Add to [Atlanta
 
 # Previous Projects
 
-* Pull Bird scooters from the [Bird API](https://github.com/ubahnverleih/WoBike/blob/master/Bird.md). Display list with React or VueJS. Document any problems to provide to the City of Atlanta. Our findings: Bird API is not available! Needs to allow for a mile radius, okay to limit requests.
+* Pull Bird scooters from the [Bird API](https://github.com/ubahnverleih/WoBike/blob/master/Bird.md). Display list with React or VueJS. Document any problems to provide to the City of Atlanta. Our findings: Bird API did not previously allow for open access. Recheck now that city has passed legislation as of Jan 7, 2019 requiring API access.
 
 <a href="https://github.com/SharedMobility/sharedmobility.github.io">GitHub</a>
