@@ -1,0 +1,807 @@
+/*
+Originates at https://neighborhood.github.io/localsite/css/base.css 
+Used in localsite, modelearth, io, neighborhood, trees
+*/
+
+/*
+html, body, div, applet, object, iframe,
+p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, tt, var,
+u, i, center,
+dl, dt, dd, ol,  
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: 'Nunito Sans', Lato, 'Helvetica Neue', HelveticaNeue, calibri, arial, sans-serif;
+}
+*/
+
+* {box-sizing: border-box;}
+.hideMobile, .hideMobileWide {display:inline-block;}
+.showMobile, .showMobileWide {display:none;}
+.showGit {display:none;}
+.local, .localonly {
+  display:none; 
+  background-image: linear-gradient(45deg, rgba(0,0,0,0.1) 25%, transparent 25%), linear-gradient(-45deg, rgba(0,0,0,0.1) 25%, transparent 25%), linear-gradient(45deg, transparent 95%, rgba(0,0,0,0.1) 75%), linear-gradient(-45deg, transparent 95%, rgba(0,0,0,0.1) 75%);
+  background-size: 3px 3px;
+}
+.local {padding:0 4px 0 4px; }
+.localonly {padding:20px; }
+svg{max-width:none;} /* Fix for embedding material icon map points in Drupal */
+
+@media (max-width: 800px) {
+  .hideMobile {display:none;}
+  .showMobile {display:inline-block;}
+}
+@media (max-width: 900px) {
+  .hideMobileWide {display:none;}
+  .showMobileWide {display:inline-block;}
+}
+html,body { /* both are needed for map height in iframe */
+  height: 100%;
+}
+body {
+  margin: 0px;
+  background-color: #fafafa;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Nunito Sans', Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color:#555;
+  color:#777;
+  line-heightX:0; /* prevents gaps betweet images, but 0 caused text to overlap on start and nav icons. */
+}
+.flexbody {
+  display: flex; /* for footer */
+  flex-direction: column; /* for footer */
+}
+main, .flexmain {
+    flex-grow: 1; /* for footer */
+}
+header, main, .flexfooter {
+    flex-shrink: 0; /* prevent shrinking if content is larger than the screen. */
+}
+table {
+  border-spacing: 0px;
+}
+td {
+  padding: 0px;
+  vertical-align: top;
+}
+input {
+  /* padding-left:5px; */
+  /* margin-right:2px; */
+}
+input, select {
+  /* margin-bottom:8px; */
+}
+
+/*
+input, textarea {
+Creates gap on some image buttons. Might reactivate after search page graphic button and others changed.
+*/
+textarea {
+    /* border:solid 1px #777; */
+    border-color: rgb(238, 238, 238);
+}
+/* input needed below for search field. Might remove others if id conflicts arrise */
+input, label, button, select, textarea {
+  /* font-size: 13.5px; */
+  /* font-weight: normal; */
+  /* line-height: 20px; */
+}
+a {
+  text-decoration: none;
+}
+/* conflicts with buttons */
+a:link {
+  color: #0366d6;
+}
+a:visited {
+  color: #0366d6;
+}
+/* Lighter: #4091dd */
+p {
+  margin-top: 0px;
+  margin-bottom: 16px;
+  /*
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  */
+  font-sizeX: 15px;
+}
+h1,h2,h3,h4 {
+  line-height: 1.5;
+  overflow: auto;
+}
+h2, h3, h4 {
+    font-family: 'PT Sans', sans-serif;
+    font-family: Raleway, Lato, "Helvetica Neue", Helvetica, "Lato", sans-serif;
+}
+.h1-home {
+  font-size: 28pt;
+}
+h1 {
+  font-family: "Helvetica Neue", Helvetica, "Lato", sans-serif;
+  font-weight: 300;
+  color: #5f5f5f;
+  color: #333;
+  font-size: 34px;
+  /* line-height: 40px; cropped off bottom of g */
+  line-height: 1.3;
+  margin-top: 10px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 1.4em;
+  padding-top: 12px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+  
+  margin-topX: 0px;
+  /* margin-bottom: 14px; */ /* too tight */
+  color: rgb(77, 82, 89);
+  overflow: auto;
+}
+/*
+h2 a:visited {
+  color: #0366d6;
+}
+*/
+h3 {
+  font-weight: 200; /* 100 is too light on pos energy */
+  font-size: 1.27em;
+  font-size: 1.4em;
+  line-height: 1.3em;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  color: #000;
+}
+h4 {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 26px;
+  margin-top: 15px;
+  margin-bottom: 12px;
+  color: #333;
+}
+h5 {
+  font-weight: 300;
+  font-size: 1.1em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color:#555;
+}
+h6 {
+  font-weight: 600;
+  font-size: 0.95em;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+sup {
+  line-height: 0.8em;
+  font-size: 0.6em;
+}
+hr {
+    border: 0px;
+    border-top: 1px solid #ddd;
+}
+details {
+  display:inline;
+}
+summary { /* a button */
+  display: inline;
+  padding:0 5px;
+  floatX:left;
+  margin-right:8px;
+  border: 1px solid #ccc;
+}
+summary::-webkit-details-marker {
+  display: none
+}
+@media print 
+{
+  .noprint {display: none; }
+  /*
+  body{margin-top:30px; color: #000; }
+  */
+}
+@media screen {.printonly {display: none; }}
+
+.displayOnload {
+  display:block !important; /* hidden until css loaded */
+}
+.content {
+  max-width: 1100px;
+  margin:0 auto;
+  font-size: 15px;
+  line-height: 1.55;
+  position: relative;
+  overflowX: auto; /* Test when activating */
+}
+.contentpadding {
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 45px;
+}
+.contentwide {
+  max-width: 1400px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contentfull {
+  max-width: 2000px;
+  padding-left: 34px;
+  padding-right: 20px;
+}
+.content li {
+  margin-left: -10px;
+}
+@media (max-width: 1400px) {
+  .contentwide {
+    max-width: 1350px;
+  }
+}
+@media (max-width: 1200px) {
+
+  .content li {
+    margin-left: -20px;
+  }
+}
+@media (max-width: 500px) {
+  .contentpadding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  /* max-width: 1200px; */ /* makes video in rotation to short */ /* max-width will conflict with sites that use bootstrap */
+  /* Conflicts with Drupal footer
+  padding-left: 55px;
+  padding-right: 55px;
+  */
+}
+.lead {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    color: rgb(66, 72, 79);
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 1.5;
+}
+.caption {
+  font-size: 12.5px;
+  margin-bottom:27px;
+}
+
+.pageColumns {
+  width:100%;
+  margin-left:-22px;
+  margin-right:-22px;
+  overflow: hidden; /* Allows bottom padding to apply after float:left columns */
+}
+.pageColumn {
+  width:33.33%;
+  float:left;
+  margin-bottom: 0px;
+}
+.full .pageColumn {
+  width:100%;
+}
+.two .pageColumn {
+  width:50%;
+}
+.pageColumnInside {
+  position: relative;
+  padding-left: 22px;
+  padding-right:22px; /* Matches .pageColumns above */
+  line-height: 1.55;
+  /* color: #777; */
+  border: 1px solid rgba(255,255,255,0);
+}
+.pageColumnTitle {
+  font-size: 1.27em;
+  line-height: 1.3em;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+@media (max-width:980px) {
+  .pageColumn, .two .pageColumn {
+    width:100%;
+  }
+}
+.contentArea {
+    margin: 0px; padding: 0px; 
+    padding-left: 20px; padding-right: 20px;
+    line-height: 1.4em;
+}
+.rightside, .floatright {
+  float:right;
+  max-width:400px;
+  margin-left:30px;
+  margin-bottom:30px;
+  /* font-size: 18px; */
+}
+@media (max-width: 1120px) {
+  .rightside {
+    max-width:auto;
+    margin-left:0px;
+    margin-bottom:30px;
+    float:none;
+  }
+}
+@media (max-width: 600px) {
+  .floatright {
+    max-width:auto;
+    margin-left:0px;
+    margin-bottom:30px;
+    float:none;
+  }
+  .fullMobile {
+    float:none;
+    width:100% !important;
+    max-width:100% !important;
+    margin-left:0px !important;
+  }
+}
+.litePanel {
+    background-color: #fff;
+    overflow:auto;
+}
+.darkPanel {
+    background-color: #ddd;
+}
+mark {
+  padding:4px 8px 4px 8px;
+  background-color: #ffc;
+}
+code {
+  background-color: #eee;
+  padding: 2px  5px;
+}
+content .js, pre code { /* Prevents .js from impacting js class within Drupal body tag */
+  background-color: #eee;
+  padding:15px;
+  border-left: 4px solid #137AD1;
+  margin-bottom: 22px;
+  display: block;
+  unicode-bidi: embed;
+  font-family: monospace;
+  /* white-space: pre-wrap; */ /* Causes Drupal to have large empty div's at top */
+}
+.link {
+  color:#4091dd;
+  /*
+  font-family: 'Open Sans', 'Helvetica Neue', HelveticaNeue, calibri, arial, sans-serif; 
+  */ /* thicker, darker */
+  font-weight: 600;
+}
+
+.nav {
+  list-style: none;
+}
+.nav>li>a {
+  padding: 8px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.nav>li>a:hover {
+  background: #ddd;
+}
+.nav-right {
+  float:right;
+}
+.nav-right ul li {
+  float:left;
+}
+.header-navigation {
+  background-color:#eceaeb;
+  margin-bottom:0px; 
+  -webkit-box-shadow: 0 4px 4px -2px #999;
+  -moz-box-shadow: 0 4px 4px -2px #999;
+  box-shadow: 0 4px 4px -2px #999;
+  z-index:10; 
+}
+.main-content {
+  margin-top: 40px;
+  /* overflow:hidden; */  /* prevents footer from residing beside columns, but caused menu/accordion to be cut off. */
+}
+/*
+#mainColumn img {
+  width:100%;
+}
+*/
+#rightColumn img {
+  /* messed up /account page */
+  /*
+  width:100%;
+  */
+}
+#footer {
+  clear: both;
+  position: relative;
+  z-index: 1000;
+  background: #fff;
+  padding-bottom: 15px;
+}
+
+.pagecard {
+    clear:both;
+    overflow: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.cardstyle {
+    background: #fff;
+    min-height: 50px;
+    position: relative;
+    border-radius: 4px;
+    padding: 20px;
+}
+@media (max-width: 1200px) {
+    .pagecard {
+        paddingX:40px;
+        margin-rightX:20px;
+    }
+}
+@media (max-width: 500px) {
+    .pagecard {
+        padding:0px;
+    }
+}
+.leftLogo {
+    float:left;
+    margin:20px;
+    margin-right:40px;
+    min-width: 210px;
+}
+@media (max-width: 800px) {
+  .leftLogo {
+      float:none;
+      margin-right:20px;
+      max-width: 150px;
+  }
+  .narrowscreen {
+    width:100% !important;
+    max-width: 100% !important;
+    float:none !important;
+    padding:0 !important;
+    margin:0 0 30px 0;
+  }
+}
+
+#log_display {
+  position:absolute;
+  top:70%;
+  left:50px;
+  max-height:200px;
+  padding: 8px 8px 8px 8px;
+  color:#fff;
+  border:1px solid #ccc;
+  border-radius: 18px 0px 5px 5px;
+}
+#log_display textarea {
+  color:#fff;
+  background: rgba(0,0,0,0);
+  min-width: 350px;
+  min-height: 150;
+  overflow:scroll;
+  border:0px;
+}
+.bgimg {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-sizeX: cover;
+    background-position: 0 100px; /* adjust for page banner - BUGBUG */
+    background-size: 100% auto;
+    borderX: 2px solid blue;
+
+    opacityX: 0.2;
+  }
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg {
+        background-attachment: scroll;
+    }
+}
+.herocenter {
+  position: absolute;
+  left: 0;
+  top: 48.5%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.herocenter-text {
+  font-size: 18px;
+  border: 1px solid #aaa;
+  display: inline-block;
+  padding: 4px 10px 4px 10px;
+  letter-spacing: .1em;
+  marginX: 20px 0px 20px 0px;
+  color: #fff;
+  text-decoration: none;
+
+  border: 0px;
+  background: rgba(55,55,55,0.7);
+  padding: 20px 25px 20px 25px;
+
+  /*
+  border: 0px;
+  padding: 18px 25px 18px 25px;
+  color: #000;
+  background: rgba(255,255,255,0.8);
+  */
+}
+.herocenter-text a {
+  color: #fff;
+}
+.herocenter span.border {
+  background-color: #111;
+  background-color: #000;
+  opacity: 0.85;
+  color: #fff;
+  padding: 18px;
+  padding-left: 25px;
+  font-size: 25px;
+  font-size:18px;
+  letter-spacing: 10px;
+  display: inline-block;
+}
+
+/* Temp until io renamed in useeio-widget */
+.input-output input[type="text"], .input-output input[type="search"], .input-output select {
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-right: 15px;
+    padding: 0 5px 0 10px;
+}
+
+
+#logospace {
+  float:left;
+  borderX: 1px solid blue;
+  line-heightX:32px;
+  margin-leftX:-19px;
+  vertical-align:middle;
+}
+/*
+.logoholder {
+  background-size: 100% 100%;
+  background-position:center;
+  height:50px;
+    width:70px;
+    margin-top: -40px;
+}
+*/
+#logoholder {
+  /*
+  background-size: 100% 100%;
+  margin:0 auto;
+  */
+  float:left;
+  display: block;
+
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+#headerLogo {
+  margin-right: 4.5px;
+  float: left;
+}
+
+/* phase out? */
+.logoholder-state {
+  background:url(img/logo/georgia-icon-on-gray.png) no-repeat;
+  margin-top: 5px;
+  height: 50px;
+  width: 70px;
+}
+.logoholder-modelearth {
+  background-image:url(../../../community/img/logo/neighborhood-icon.png) no-repeat;
+  margin-top: 15px;
+  margin-right: 24px;
+  height:25px; 
+  width:25px;
+}
+.logolink:hover{
+  text-decoration: none;
+}
+
+#headerLocTitleHolder {
+  float:left;
+  /*
+  padding:10px 0 0 0px;
+  font-size: 22px;
+  height:45px;
+  */
+}
+/*
+.headerLocTitleHolder-state {
+  margin-top: 7px;
+}
+
+, #headerLocTitle
+*/
+#headerSiteTitle {
+  font-size: 24px;
+  font-family: Helvetica !important;
+  font-weight: 100;
+  color: #777;
+  letter-spacing: 2px;
+  padding-bottom: 6px;
+
+  /* Align vertically */
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+#headerLocTitle {
+  float:left;
+  padding-top:1px;
+  color:#9c9c9c;
+  font-size: 22px;
+}
+#homeMenu {
+  display: none;
+  border: 1px solid #ccc;
+}
+#homeMenu div {
+  height: 40px;
+  background-color: #fff;
+  padding:20px;
+}
+.headerbar {
+  /* box-shadow: 0 1px 7px rgba(0, 0, 0, 0.1); */
+  border-bottom: 1px solid #eee;
+}
+.headerbarheight {
+  height:100px;
+}
+.filters-margin {
+  margin: 0 auto;
+  max-width:1000px;
+}
+.headerDropdown {
+  float:left;
+  display:none;
+  margin-left: 10px;
+}
+.headerDropdown select {
+  font-size: 18px;
+  color: #999;
+  border: 1px #ccc solid;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+/* HEADER */
+.upperIcons > div {
+  border-left:1px solid #ddd;
+  height:100px;
+  padding:32px;
+  padding-left:37px;
+}
+.upperIcons > div:hover {
+  cursor: pointer;
+}
+#menuHolder {
+  height:100%;
+  position:fixed;
+  right:0px;
+
+  margin-leftX:-10px;
+  overflow: auto;
+  background: #fff;
+
+  width:250px;
+  margin-right:-250px;
+  -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+    box-sizing: border-box;
+    z-index: 9999;
+}
+#menuTop {
+  margin-left:20px;
+}
+#menuNav {
+  margin-top:20px;
+}
+#menuNav a {
+  display: block;
+  padding-left: 40px !important;
+  padding-top: 15px !important;
+  min-height: 50px;
+  box-sizing: border-box;
+}
+/*
+#menuNav a:hover {
+  background-color: #ddd;
+}
+*/
+#menuNav a {
+  font-size:16px;
+  font-weight: 500;
+  color: #ccc;
+}
+#menuNav a:hover {
+  background-color: #000;
+}
+
+
+@media (max-width: 600px) {
+  #menuNav a {
+    font-size:20px;
+  }
+}
+#menuHolder a {
+  padding: 10px;
+  text-decoration: none;
+}
+.hideMenu {
+  margin-top:15px;
+  margin-right:17px;
+  cursor:pointer;
+  border: 2px solid #AEAEAE;
+  border-radius: 30px;
+  font-size: 32px;
+  font-weight: 100;
+  display: inline-block;
+  line-height: 0px;
+  padding: 11px 3px;
+  width: 27px;
+  position: relative;
+  float: right;
+}
+.hideMenu:hover {
+  color:#fff;
+  border-color: #fff;
+}
+.hideMenuInner {
+  position:absolute;
+  top:3px;
+  left:4px;
+  color:#555;
+  display: none;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 17px;
+}
+.hideMenuInner:hover {
+  color:#fff;
+}
+/* @media handheld { */
+@media only screen and (max-width: 479px) { /* Since Lato font not available on Android */
+  .hideMenu:after {
+      top: 12px;
+      left: 4px;
+  }
+}
+/* END HEADER */
